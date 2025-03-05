@@ -6,7 +6,7 @@
 public class PalinListRunner {
 	public static void main ( String[] args ) {
 		//add test cases	
-		String [] testCases {
+		String [] testCases = {
 			"one two three two one",
 			"1 2 3 4 5 one two three four five",
                         "a b c d e f g x y z g f h",
@@ -15,7 +15,7 @@ public class PalinListRunner {
                         "chicken is a chicken"
                    };
 
-		for(String testCase : testCase) {
+		for(String testCase : testCases) {
 			PalinList palinList = new PalinList(testCase);
 			System.out.println(palinList);
 		}
